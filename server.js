@@ -194,7 +194,7 @@ function updateEmployee() {
                         name: "role",
                         type: "rawlist",
                         message: "What is the Employees new title? ",
-                        choices: selectRole(),
+                        choices: selectRole()
                     },
                 ])
                 .then(function (val) {
